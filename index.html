@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Uzair Portfolio</title>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#050b12;
+    color:white;
+    padding:20px;
+}
+
+header{
+    background:#071018;
+    border:1px solid #00d9ff;
+    border-radius:15px;
+    padding:30px;
+    display:flex;
+    align-items:center;
+    gap:50px;
+    margin-bottom:20px;
+}
+
+header img{
+    width:280px;
+    height:280px;
+    border-radius:50%;
+    object-fit:cover;
+    border:2px solid #00d9ff;
+}
+
+.header-text{
+    flex:1;
+    text-align:center;
+}
+
+.header-text h1{
+    color:#00d9ff;
+    font-size:70px;
+    font-weight:bold;
+    letter-spacing:2px;
+}
+
+.line{
+    width:120px;
+    height:3px;
+    background:#00d9ff;
+    margin:15px auto;
+}
+
+.header-text p{
+    font-size:28px;
+}
+
+section{
+    background:#071018;
+    border:1px solid #00d9ff;
+    border-radius:15px;
+    padding:30px;
+    margin-bottom:20px;
+}
+
+h2{
+    color:#00d9ff;
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+h2 i{
+    margin-right:15px;
+}
+
+section p{
+    font-size:24px;
+    line-height:1.8;
+    margin-left:55px;
+}
+
+ul{
+    margin-left:85px;
+}
+
+li{
+    font-size:24px;
+    line-height:2;
+}
+
+@media(max-width:768px){
+
+header{
+    flex-direction:column;
+    text-align:center;
+}
+
+header img{
+    width:200px;
+    height:200px;
+}
+
+.header-text h1{
+    font-size:40px;
+}
+
+.header-text p{
+    font-size:20px;
+}
+
+h2{
+    font-size:30px;
+}
+
+section p,
+li{
+    font-size:18px;
+}
+
+}
+
+</style>
+</head>
+<body>
+
+<header>
+
+    <img src="profile.jpg" alt="Profile Photo">
+
+    <div class="header-text">
+        <h1>RAVINUTALA UZAIR</h1>
+        <div class="line"></div>
+        <p>Web Development Student</p>
+    </div>
+
+</header>
+
+<section id="about">
+    <h2><i class="fas fa-user"></i> About Me</h2>
+
+    <p>
+        Hello! I am UZAIR RAVINUTALA, a B.Tech CSE (AIML) student.
+    </p>
+
+    <p>
+        I am interested in Web Development, AI, and Software Engineering.
+    </p>
+</section>
+
+<section id="education">
+    <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+
+    <p>B.Tech CSE (AIML)</p>
+    <p>Mohan Babu University</p>
+</section>
+
+<section id="skills">
+    <h2><i class="fas fa-code"></i> Skills</h2>
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Python</li>
+        <li>Java</li>
+        <li>Machine Learning</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2><i class="fas fa-envelope"></i> Contact</h2>
+
+    <p>Email: deadpool950550@gmail.com</p>
+    <p>Phone: +91 9505503419</p>
+</section>
+
+</body>
+</html>
